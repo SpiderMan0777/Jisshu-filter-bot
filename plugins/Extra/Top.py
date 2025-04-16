@@ -2,9 +2,9 @@ from pyrogram import Client, filters
 from info import ADMINS, DATABASE_URI
 from pyrogram.types import ReplyKeyboardMarkup
 import asyncio
-from database.topdb import JsTopDB
+from database.topdb import SpideyDB
 
-movie_series_db = JsTopDB(DATABASE_URI)
+movie_series_db = SpideyDB(DATABASE_URI)
     
 
 # top trending commands
